@@ -1,32 +1,36 @@
-## Project Description
+# 🏥 Hospital Management System (Django)
 
-The Hospital Management System is a web-based application designed to simplify hospital data maintenance using HTML, CSS, Python with the Django framework, and an SQLite database. This system streamlines various aspects of hospital administration, including patient and doctor record management, from admin registration to comprehensive information storage. It has successfully achieved a 30% reduction in administrative workload by automating data entry and retrieval processes. Moreover, it enhances the efficiency of hospital operations by providing real-time access to patient and doctor information.
+## 📌 Project Overview
 
-## Key Features
+A web-based Hospital Management System built using Django that helps manage patients, doctors, appointments, and billing efficiently.
 
-- Streamlined administration tasks for patient and doctor records.
-- Utilizes the Django framework for robust and secure web development.
-- Achieved a 30% reduction in administrative workload through automation.
-- Provides real-time access to critical patient and doctor information.
+## 🚀 Features
 
-## Technologies Used
+* Patient Registration & Login
+* Doctor Management
+* Appointment Booking System
+* Admin Dashboard
+* Billing System
 
-- HTML
-- CSS
-- Python
-- Django Framework
-- SQLite Database
+## 🛠 Tech Stack
 
-## How to Use
-1- Set up a virtual environment for your Python development.
+* Backend: Django (Python)
+* Frontend: HTML, CSS, Bootstrap
+* Database: SQLite
 
-1-Install the project dependencies by running:
-   pip install -r requirements.txt
-2-Run the development server:
-   python manage.py runserver
-3-Open a web browser and access the system at http://localhost:8000.
+## ▶️ How to Run
 
-## Usage
-Log in as an admin to access the system.
-Add, edit, or delete patient and doctor records.
-Enjoy streamlined hospital data management and real-time access to information.
+```bash
+pip install -r requirement.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+## 🌐 Access
+
+http://127.0.0.1:8000/
+
+## 👨‍💻 Author
+
+Hanumanth Gowda
+
